@@ -1,0 +1,178 @@
+{
+  margin: 0;
+  padding: 0;
+  font-family: century gothic;
+}
+
+header{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../beaches.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+ul{
+  float: right;
+  list-style-type: none;
+  margin: 25px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+}
+.logo img{
+  float: left;
+  width: 145px;
+  height: auto;
+}
+
+.main{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.title h1{
+  color: #fff;
+  font-size: 60px;
+
+}
+
+.button{
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  list-style-type: none;
+}
+
+.button{
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fc0808;
+  text-decoration: none;
+  transition: 0.6s ease;
+
+}
+
+.button:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+.style{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  list-style-type: none;
+}
+
+.style{
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #0ff507;
+  text-decoration: none;
+  transition: 0.6s ease;
+
+}
+
+.style:hover{
+  background-color: #10f12e;
+  color: #000;
+}
+
+.bura{
+  position: absolute;
+  top: 78%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  list-style-type: none;
+}
+
+.bura{
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #ad07fa;
+  text-decoration: none;
+  transition: 0.6s ease;
+
+}
+
+.bura:hover{
+  background-color: #1115e7;
+  color: #000;
+}
+
+.web{
+  position: absolute;
+  top: 86%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  list-style-type: none;
+}
+
+.web{
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #000000;
+  text-decoration: none;
+  transition: 0.6s ease;
+
+}
+
+.web:hover{
+  background-color: #e1f00c;
+  color: #000;
+}
+
+.aman{
+  position: absolute;
+  top: 94%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  list-style-type: none;
+}
+
+.aman{
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #f8fc06;
+  text-decoration: none;
+  transition: 0.6s ease;
+
+}
+
+.aman:hover{
+  background-color: #0ce917;
+  color: #000;
+}
+
+ul.fkir{
+  float: right;
+  list-style-type: none;
+  margin: 25px;
+}
